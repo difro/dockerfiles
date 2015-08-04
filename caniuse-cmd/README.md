@@ -17,7 +17,7 @@ IndexedDB ✔ 59.46% ◒ 18.58% [W3C Candidate Recommendation]
 
     ¹Partial support in IE 10 & 11 refers to a number of subfeatures [not being supported](http://codepen.io/cemerick/pen/Itymi).
     ²Partial support in iOS 8 refers to [seriously buggy behavior](http://www.raymondcamden.com/2014/9/25/IndexedDB-on-iOS-8--Broken-Bad).
-(jihoonc@morpheus)--(~/work/dockerfiles/caniuse-js)--(10:13)
+
 $ docker run -t --rm difro/caniuse-cmd http2
 HTTP/2 protocol ✔ 48.92% ◒ 7.6% [Other]
   Networking protocol for low-latency transport of content over the web. Originally started out from the SPDY protocol, now standardized as HTTP version 2. #Other
@@ -31,4 +31,5 @@ HTTP/2 protocol ✔ 48.92% ◒ 7.6% [Other]
 
     ¹Partial support in IE11 refers to being limited to Windows 10.
   ⓘ  See also support for [the SPDY protocol](http://caniuse.com/#feat=spdy), precursor of HTTP2
+
 ```
