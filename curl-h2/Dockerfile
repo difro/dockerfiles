@@ -18,7 +18,7 @@ RUN	cd /usr/local/src && \
 	rm -rf /usr/local/src/nghttp2-${NGHTTP2_VERSION}
 
 # build curl
-ENV	CURL_VERSION=7.43.0
+ENV	CURL_VERSION=7.44.0
 RUN	cd /usr/local/src && \
 	wget -q -O- http://curl.haxx.se/download/curl-${CURL_VERSION}.tar.gz | tar xzf - && \
 	cd /usr/local/src/curl-${CURL_VERSION} && \
